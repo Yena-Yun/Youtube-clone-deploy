@@ -8,7 +8,7 @@ moreBtn.addEventListener("click", () => {
 });
 
 // 액션버튼 별로 active 클래스 따로 동작하게 하기
-const actionBtn = document.querySelectorAll(".metadata .actions button i");
+const actionBtn = document.querySelectorAll(".metadata .actions button");
 
 const toggle = (e) => {
   const element = e.target;
